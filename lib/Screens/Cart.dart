@@ -92,7 +92,7 @@ class Cart extends StatelessWidget {
                     MaterialPageRoute(
                       builder: (context) => const productDetails(),
                       settings: RouteSettings(
-                        arguments: productProvider.cartProduct![index],
+                        arguments: productProvider.cartProduct[index],
                       ),
                     ),
                   );

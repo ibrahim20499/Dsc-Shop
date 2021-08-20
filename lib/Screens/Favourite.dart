@@ -93,12 +93,12 @@ class Favourite extends StatelessWidget {
                                       color: Colors.black,
                                       onPressed: () {
                                         Products crtProduct = new Products(
-                                          id: productProvider.FavProduct![index].id,
-                                          category: productProvider.FavProduct![index].category,
-                                          image: productProvider.FavProduct![index].image,
-                                          description: productProvider.FavProduct![index].description,
-                                          price: productProvider.FavProduct![index].price,
-                                          title: productProvider.FavProduct![index].title,
+                                          id: productProvider.FavProduct[index].id,
+                                          category: productProvider.FavProduct[index].category,
+                                          image: productProvider.FavProduct[index].image,
+                                          description: productProvider.FavProduct[index].description,
+                                          price: productProvider.FavProduct[index].price,
+                                          title: productProvider.FavProduct[index].title,
                                         );
                                         productProvider.addProductToCarts(crtProduct);
                                       },
@@ -135,7 +135,7 @@ class Favourite extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) => productDetails(),
                       settings: RouteSettings(
-                        arguments: productProvider.favouriteProduct![index],
+                        arguments: productProvider.favouriteProduct[index],
                     ),
                     ));
               },
