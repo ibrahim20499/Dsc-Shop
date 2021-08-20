@@ -1,18 +1,18 @@
-import 'package:shop/HomePage.dart';
+import 'Screens/HomePage.dart';
 import 'package:shop/provider/addProduct_provider.dart';
-import 'package:shop/provider/change_theme.dart';
+import 'change_theme.dart';
 import 'package:shop/provider/theme_provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'Cart.dart';
-import 'Favourite.dart';
+import 'Screens/Cart.dart';
+import 'Screens/Favourite.dart';
 import 'dart:async';
 import 'package:provider/provider.dart';
 
-import 'Login.dart';
-import 'Search.dart';
+import 'Screens/Login.dart';
+import 'Screens/Search.dart';
 import 'model/fetchData.dart';
 import 'model/products.dart';
 

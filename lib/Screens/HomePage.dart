@@ -6,19 +6,19 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:shop/Favourite.dart';
+import 'Favourite.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:shop/cloudStorage.dart';
 import 'package:shop/model/products.dart';
 import 'package:shop/model/fetchData.dart';
 import 'package:flutter/material.dart';
 import 'package:shop/provider/addProduct_provider.dart';
-import 'package:shop/provider/change_theme.dart';
+import '../change_theme.dart';
 import 'Favourite.dart';
 import 'Login.dart';
 import 'ProductDetails.dart';
 import 'Search.dart';
-import 'model/products.dart';
+import '../model/products.dart';
 class HomePage extends StatefulWidget {
 
   @override

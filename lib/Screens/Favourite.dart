@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:shop/provider/addProduct_provider.dart';
 
 import 'ProductDetails.dart';
-import 'model/products.dart';
+import '../model/products.dart';
 
 class Favourite extends StatelessWidget {
   // Favourite({Key? key, required this.index, required this.items})

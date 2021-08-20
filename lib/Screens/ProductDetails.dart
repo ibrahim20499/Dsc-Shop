@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:shop/model/fetchData.dart';
 import 'package:shop/provider/addProduct_provider.dart';
 
-import 'model/products.dart';
+import '../model/products.dart';
 
 class productDetails extends StatelessWidget {
   const productDetails({Key? key}) : super(key: key);

@@ -4,8 +4,8 @@ import 'package:shop/provider/addProduct_provider.dart';
 
 import 'Favourite.dart';
 import 'ProductDetails.dart';
-import 'model/fetchData.dart';
-import 'model/products.dart';
+import '../model/fetchData.dart';
+import '../model/products.dart';
 
 class SearchUser extends SearchDelegate {
   @override
